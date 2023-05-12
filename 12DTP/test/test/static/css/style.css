@@ -1,0 +1,14 @@
+/**GLOBAL**/
+
+body{
+    font-family:"Comic Sans MS";    
+    background-color:whitesmoke;
+    color:darkseagreen;
+}
+
+h1{
+    padding:50px;
+    width:100%;
+    background-color: yellow;
+
+}

@@ -1,0 +1,17 @@
+{%extends "layout.html"%}
+{%block content%}
+<h2>{{pizza[1]}}</h2> <p>{{pizza[2]}}</p>
+
+<h2>BASE</h2>
+{%for item in base%}
+<p>{{base[0]}}</p>
+{%endfor%}
+
+<h2>TOPPINGS</h2>
+{%for item in toppings%}
+<p>{{item[0]}}</p>
+{%endfor%}
+
+<img src="{{pizza[3]}} "/>
+
+{%endblock%}

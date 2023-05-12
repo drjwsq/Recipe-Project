@@ -1,0 +1,1 @@
+SELECT name FROM Toppings WHERE id IN(SELECT tid FROM PizzaToppings WHERE pid = (SELECT id FROM Pizza WHERE name = "Hawaiian"))
